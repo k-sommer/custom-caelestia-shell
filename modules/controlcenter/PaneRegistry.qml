@@ -24,24 +24,6 @@ QtObject {
             readonly property string icon: "volume_up"
             readonly property string component: "audio/AudioPane.qml"
         },
-        QtObject {
-            readonly property string id: "appearance"
-            readonly property string label: "appearance"
-            readonly property string icon: "palette"
-            readonly property string component: "appearance/AppearancePane.qml"
-        },
-        QtObject {
-            readonly property string id: "taskbar"
-            readonly property string label: "taskbar"
-            readonly property string icon: "task_alt"
-            readonly property string component: "taskbar/TaskbarPane.qml"
-        },
-        QtObject {
-            readonly property string id: "launcher"
-            readonly property string label: "launcher"
-            readonly property string icon: "apps"
-            readonly property string component: "launcher/LauncherPane.qml"
-        }
     ]
 
     readonly property int count: panes.length
